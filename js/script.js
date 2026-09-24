@@ -1,6 +1,6 @@
-const leadForm = document.querySelector('#contact_form');
-if (leadForm) {
-  leadForm.addEventListener('submit', (event) => {
+const contact_form = document.querySelector('#contact_form');
+if (contact_form) {
+  contact_form.addEventListener('submit', (event) => {
     event.preventDefault();
     if (typeof gtag === 'function') {
       gtag('event', 'generate_lead', {
