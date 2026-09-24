@@ -1,4 +1,4 @@
-const contact_form = document.querySelector('#contact_form');
+const contact_form = document.querySelector('#contact-form');
 if (contact_form) {
   contact_form.addEventListener('submit', (event) => {
     event.preventDefault();
