@@ -1,4 +1,4 @@
-const leadForm = document.querySelector('#lead-form');
+const leadForm = document.querySelector('#contact_form');
 if (leadForm) {
   leadForm.addEventListener('submit', (event) => {
     event.preventDefault();
