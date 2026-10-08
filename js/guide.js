@@ -1,5 +1,3 @@
-'use strict'
-
 (() => {
   const params = new URLSearchParams(location.search);
   const target = new URL('contacts.html', location.href);
