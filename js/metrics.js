@@ -1,3 +1,5 @@
+'use strict'
+
 document.querySelectorAll('nav a').forEach((link) => {
   link.addEventListener('click', () => {
     gtag('event', 'nav_click', {
