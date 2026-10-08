@@ -51,3 +51,11 @@ if (programCta) {
     }
   });
 }
+function doGet() {
+  return ContentService
+    .createTextOutput(JSON.stringify({
+      status: 'ok',
+      message: 'Lead endpoint is running. Send POST from the form.'
+    }))
+    .setMimeType(ContentService.MimeType.JSON);
+}
