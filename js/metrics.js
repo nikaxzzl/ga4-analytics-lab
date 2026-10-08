@@ -33,8 +33,3 @@ if (leadFormFields) {
     });
   }, true);
 }
-programCta.addEventListener('click', () => {
-  gtag('event', 'cta_click', {
-    button_name: 'program', page_section: 'hero'
-  });
-});
